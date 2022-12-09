@@ -16,7 +16,7 @@ pipeline {
 			}
 		}
 		stage('---package---'){
-			tools { maven "maven3.6.0" }
+			tools { maven "maven3.6.2" }
 			
 			steps {
 				sh 'mvn -version'
